@@ -1,11 +1,11 @@
 {
-    "name": "danzar/sail",
+    "name": "danzar/sail_58",
     "description": "Docker files for running a basic Laravel application.",
     "keywords": ["laravel", "docker"],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/laravel/sail/issues",
-        "source": "https://github.com/laravel/sail"
+        "source": "https://github.com/danzar/sail_58"
     },
     "authors": [
         {
@@ -31,7 +31,10 @@
         "laravel": {
             "providers": [
                 "Laravel\\Sail\\SailServiceProvider"
-            ]
+            ],
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
         }
     },
     "config": {
