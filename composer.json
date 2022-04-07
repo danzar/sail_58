@@ -15,9 +15,9 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/contracts": "^6.20",
-        "illuminate/console": "^6.20",
-        "illuminate/support": "^6.20"
+        "illuminate/contracts": "^5.8.*",
+        "illuminate/console": "^5.8.*",
+        "illuminate/support": "^5.8.*"
     },
     "bin": [
         "bin/sail"
